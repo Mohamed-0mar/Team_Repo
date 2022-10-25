@@ -11,4 +11,6 @@ class BigDecimalInt{
     BigDecimalInt(int decInt);
     BigDecimalInt operator+(BigDecimalInt anotherDec);
     void set_value(string res);
+    BigDecimalInt operator- (BigDecimalInt anotherDec);
+    bool operator< (BigDecimalInt anotherDec);
 };
